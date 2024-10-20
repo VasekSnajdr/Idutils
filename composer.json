@@ -1,0 +1,31 @@
+{
+	"name": "vaseksnajdr/idutils",
+	"description": "Nette extension for working with UUIDv7 and ULID identifiers",
+  	"keywords": ["nette", "extension", "framework", "uuid", "uuidv7", "ulid", "identifiers"],
+  	"type": "library",
+  	"authors": [
+		{
+			"name": "Václav Ráboň Šnajdr"
+		}
+	],
+	"license": ["BSD-3-Clause"],
+	"require": {
+	  	"php": ">= 8.2",
+		"ramsey/uuid": "^4.7",
+		"tuupola/base32": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"VasekSnajdr\\Idutils\\": "src"
+		}
+	},
+	"minimum-stability": "stable",
+	"config": {
+		"allow-plugins": {
+
+		},
+		"platform": {
+			"php": "8.2"
+		}
+	}
+}
